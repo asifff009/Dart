@@ -6,14 +6,15 @@ void main(){
     'city' : 'Mymensingh',
     'gender' : 'Male'
   };
-  
+
   /*
       List er motoi.. Just Map a hocche key r value
-      thake jeita list a naii... Map a first ta key, 
+      thake jeita list a naii... Map a first ta key,
       porer ta value..
-   
+
   */
 
   print(person);
+  print(person['city']); //specific
 
 }
